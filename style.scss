@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #1F2937;
+    height: 25vh;
+ 
+    display:flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem;
+
+   .btnAdopt{
+    background-color: #F97415;
+    color: white;
+    width: 8%;
+    height: 5vh;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    font-weight: 700;
+    border: none;
+
+    //2ª Opção de mexer no tamanho do botão padding:
+    //padding: 1rem 2rem 1rem 2rem;
+   }
+}
+
+.banner{
+    #nome{
+        color:#F97415;
+        font-weight: 700;
+        font-size: 3.75rem;
+    }
+}
