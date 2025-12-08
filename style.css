@@ -23,8 +23,49 @@ header .btnAdopt {
   border: none;
 }
 
-.banner #nome {
+.banner {
+  height: 110vh;
+  padding: 20px;
+}
+
+article {
+  border: solid 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#nomeDoPet {
   color: #F97415;
   font-weight: 700;
   font-size: 3.75rem;
+}
+
+.infoPet #descricao {
+  width: 80%;
+}
+
+.galeria {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pet {
+  border: solid green;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.pet .descricao, .pet .nome {
+  display: none;
+}
+
+.imgPet {
+  width: 50%;
+  height: 20vh;
+  border-radius: 100%;
 }/*# sourceMappingURL=style.css.map */
