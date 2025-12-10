@@ -50,11 +50,7 @@ article{
         font-size: 3.75rem;
     }
 
-    .infoPet{
-    #descricao{
-      width: 80%;
-    }
-  }
+    
 
   .galeria{
  display: flex;    
@@ -70,10 +66,16 @@ article{
     text-align: center;
     justify-content: space-evenly;
 
-    .descricao, .nome{
-      display: none;
-    }
+    //.descricao, .nome{
+     // display: none;
+    //}
   }
+
+  .pet .descricao,
+  .pet .nome{
+    display: none;
+  }
+
 
 .imgPet{
   width: 50%;
